@@ -3,6 +3,10 @@ class Circle {
     this._radius = radius;
   }
   
+  get radius() {
+    return this._radius;
+  }
+  
   set diameter(diameter) {
     this._radius = diameter / 2;
   }
