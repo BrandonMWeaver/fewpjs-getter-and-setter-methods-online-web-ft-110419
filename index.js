@@ -20,6 +20,6 @@ class Circle {
   }
   
   set area(area) {
-    this._radius
+    this._radius = Math.sqrt()
   }
 }
