@@ -4,11 +4,11 @@ class Circle {
   }
   
   set diameter(diameter) {
-    this._diameter = diameter;
+    this._diameter = this;
   }
   
   get diameter() {
-    return this._diameter;
+    return this._radius * 2;
   }
   
   set circumference(circumference) {
