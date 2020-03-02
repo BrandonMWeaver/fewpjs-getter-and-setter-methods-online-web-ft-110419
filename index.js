@@ -3,8 +3,8 @@ class Circle {
     this._radius = radius;
   }
   
-  set diameter() {
-    
+  set diameter(diameter) {
+    this._diameter =
   }
   
   get diameter() {
