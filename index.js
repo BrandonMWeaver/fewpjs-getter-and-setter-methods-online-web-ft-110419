@@ -4,7 +4,7 @@ class Circle {
   }
   
   set diameter(diameter) {
-    this._diameter = this;
+    this._radius = diameter / 2;
   }
   
   get diameter() {
